@@ -7,7 +7,7 @@ const Header = () => {
         <header className="header">
             <div className="logo">Bankist</div>
             {user && (
-                 <div className="user-info">
+                <div className="user-info">
                     <span>Welcome, {user.full_name}!</span>
                     <button onClick={logout} className="logout-btn">Logout</button>
                 </div>

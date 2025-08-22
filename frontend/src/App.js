@@ -16,7 +16,7 @@ const AuthRedirect = () => {
 function App() {
   return (
     <AuthProvider>
-      <Router basename="/banking-frontend">
+      <Router >
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
